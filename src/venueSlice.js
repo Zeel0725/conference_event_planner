@@ -52,7 +52,7 @@ export const venueSlice = createSlice({
         state[index].quantity--;
       }
     },
-  },
+  }, 
 });
 
 export const { incrementQuantity, decrementQuantity } = venueSlice.actions;
